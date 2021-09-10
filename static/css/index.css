@@ -197,4 +197,9 @@ a:hover {
   padding: 10px 15px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
 
