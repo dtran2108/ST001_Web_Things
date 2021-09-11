@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 :root {
   --primary-color: #248229;
   --size-12: 12px;
@@ -10,6 +13,10 @@
 }
 
 /* -------------------------------- */
+body {
+  box-sizing: border-box;
+  font-family: var(--font-lato);
+}
 .container {
   padding: 10px 30px 24px;
 }
@@ -203,3 +210,42 @@ a:hover {
   border-color: var(--primary-color);
 }
 
+/* ------------------------- */
+.necess-infos {
+  padding: 50px 0 34px 0;
+  font-family: var(--font-lato);
+  font-size: var(--size-14);
+  border-bottom: 1px solid #cbcbcb;
+}
+.expain {
+  line-height: 2;
+  word-spacing: 1px;
+}
+.necess-links {
+  width: 100%;
+}
+.necess-links a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  word-spacing: 1px;
+}
+.necess-links a:last-child {
+  margin-bottom: 0;
+}
+
+/* ----------------------- */
+.copyright {
+  font-family: var(--font-lato);
+  font-size: var(--size-14);
+  font-weight: var(--weight-600);
+  padding-top: 24px;
+  text-align: center;
+  margin-bottom: 0;
+  word-spacing: 2px;
+}
+
+footer {
+  font-size: 14px !important;
+}

@@ -1,9 +1,7 @@
 :root {
   --color-green: #248229;
 }
-body {
-  box-sizing: border-box;
-}
+
 .btn-detail {
   color: #fff;
   background-color: #248229;
@@ -128,41 +126,4 @@ body {
 }
 .desc-text:last-child {
   margin-bottom: 0;
-}
-
-/* ------------------------- */
-.necess-infos {
-  padding: 50px 0 34px 0;
-  font-family: var(--font-lato);
-  font-size: var(--size-14);
-  border-bottom: 1px solid #cbcbcb;
-}
-.expain {
-  width: 65%;
-  line-height: 2;
-  word-spacing: 1px;
-}
-.necess-links {
-  width: 100%;
-}
-.necess-links a {
-  display: block;
-  text-decoration: none;
-  color: #000;
-  margin-bottom: 10px;
-  word-spacing: 1px;
-}
-.necess-links a:last-child {
-  margin-bottom: 0;
-}
-
-/* ----------------------- */
-.copyright {
-  font-family: var(--font-lato);
-  font-size: var(--size-14);
-  font-weight: var(--weight-600);
-  padding-top: 24px;
-  text-align: center;
-  margin-bottom: 0;
-  word-spacing: 2px;
 }
