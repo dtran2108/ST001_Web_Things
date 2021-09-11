@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 :root {
   --primary-color: #248229;
@@ -10,12 +11,22 @@
   --weight-700: 700;
   --font-lato: "Lato", sans-serif;
   --font-raleway: "Raleway", sans-serif;
+  --seperate-color: #cbcbcb;
 }
 
 /* -------------------------------- */
 body {
   box-sizing: border-box;
   font-family: var(--font-lato);
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 29px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-bottom-10 {
+  margin-top: 10px;
 }
 .container {
   padding: 10px 30px 24px;
@@ -248,4 +259,23 @@ a:hover {
 
 footer {
   font-size: 14px !important;
+}
+
+.section-title {
+  font-family: var(--font-raleway);
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-gap-t {
+  padding-top: 90px;
+}
+
+.section-gap-b {
+  padding-bottom: 90px;
+}
+
+.seperate-b {
+  border-bottom: 1px solid var(--seperate-color);
 }
