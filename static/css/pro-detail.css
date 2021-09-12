@@ -86,29 +86,25 @@
   font-size: var(--size-18);
 }
 .wrap-img {
-  display: flex;
-  align-items: center;
   margin-bottom: 10px;
 }
-.img-product {
+.carousel.slide{
   width: 100%;
 }
+
 /* ------------------------------------- */
 .desc-product {
   margin-top: 100px;
 }
 .desc-title {
-  display: inline-block;
   font-family: var(--font-lato);
-  border: 1px solid #f3f3f3;
-  color: var(--color-green);
-  padding: 6px 28px;
   font-size: var(--size-18);
   margin-bottom: 0;
 }
 .more-desc {
-  border: 1px solid #f3f3f3;
-  padding: 30px 45px 10px 28px;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 30px 45px 10px 20px;
 }
 .desc-head {
   font-family: var(--font-raleway);
