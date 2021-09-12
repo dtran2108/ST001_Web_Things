@@ -1,0 +1,186 @@
+.sc{position: absolute;
+width: 900px;
+height: 33px;
+top: 244px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 33px;
+/* identical to box height, or 110% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.em{
+position: absolute;
+width: 900px;
+height: 26px;
+top: 352px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 108% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+.con{
+    
+position: absolute;
+width: 900px;
+height: 26px;
+top: 392px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.li{
+position: absolute;
+width: 510px;
+height: 40px;
+top: 357px;
+
+background: #F3F3F3;
+}
+.l{
+position: absolute;
+width: 185px;
+height: 40px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.su{
+position: absolute;
+width: 360px;
+height: 40px;
+top: 357px;
+
+background: #F3F3F3;
+}
+.item{
+position: absolute;
+width: 451px;
+height: 125px;;
+left:0; top:0
+}
+.ex{
+position: absolute;
+width: 95.01px;
+height: 96.55px;
+left: 0;
+}
+.its{
+    width: 451px;
+    height: 290px;
+    top: 416px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+.productname{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 17px;
+display: flex;
+right:0;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.othergr{
+    position: absolute;
+    right: 0; top: 0;
+    height: 125px;
+}
+.price{
+position: absolute;
+width: 47px;
+height: 22px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 10px;
+
+}
+.qutt{
+position: absolute;
+width: 45px;
+height: 17px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 90px;
+
+}
+.form{
+position: absolute;
+width: 98px;
+height: 28px;
+bottom:2;
+border: 1px solid #F3F3F3;
+box-sizing: border-box;
+}
+#bt1{
+position: absolute;
+width: 107px;
+height: 28px;
+
+background: #24822A;
+}
+.fontbt{
+    position: absolute;
+width: 83px;
+height: 28px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+/* or 236% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
