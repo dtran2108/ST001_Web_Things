@@ -1,0 +1,129 @@
+:root {
+  --color-green: #248229;
+}
+
+.btn-detail {
+  color: #fff;
+  background-color: #248229;
+}
+.btn-detail:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* ---------------------------------------- */
+.product-detail {
+  color: #000;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.product-name {
+  font-family: var(--font-raleway);
+  font-size: 30px;
+  font-weight: var(--weight-700);
+  margin: 85px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product-price {
+  font-family: var(--font-raleway);
+  font-size: 30px;
+  font-weight: var(--weight-700);
+  margin-bottom: 20px;
+}
+.info-detail {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.product-type {
+  font-family: var(--font-lato);
+}
+.character-pro,
+.form-select {
+  font-size: var(--size-14);
+  font-weight: 400;
+}
+.character-name {
+  display: inline-block;
+  width: 55px;
+  margin-right: 56px;
+  margin-bottom: 10px;
+}
+.form-select {
+  width: 75%;
+  height: 41px;
+  color: #000;
+  margin-bottom: 19px;
+}
+.form-select:focus {
+  border: none;
+  box-shadow: 0 0 0 0.1rem rgb(0 0 0 / 25%);
+}
+.select-quantity {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+.minus,
+.plus {
+  padding: 13px 15px;
+  cursor: pointer;
+}
+.input-quantity {
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid #f3f3f3;
+  outline: none;
+}
+.add-cart-btn {
+  display: block;
+  text-decoration: none;
+  line-height: 41px;
+  width: 75%;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--size-18);
+}
+.wrap-img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.img-product {
+  width: 100%;
+}
+/* ------------------------------------- */
+.desc-product {
+  margin-top: 100px;
+}
+.desc-title {
+  display: inline-block;
+  font-family: var(--font-lato);
+  border: 1px solid #f3f3f3;
+  color: var(--color-green);
+  padding: 6px 28px;
+  font-size: var(--size-18);
+  margin-bottom: 0;
+}
+.more-desc {
+  border: 1px solid #f3f3f3;
+  padding: 30px 45px 10px 28px;
+}
+.desc-head {
+  font-family: var(--font-raleway);
+  font-size: var(--size-18);
+  font-weight: var(--weight-700);
+  margin-bottom: 10px;
+}
+.desc-text {
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 48px;
+  word-spacing: 1.5px;
+}
+.desc-text:last-child {
+  margin-bottom: 0;
+}
