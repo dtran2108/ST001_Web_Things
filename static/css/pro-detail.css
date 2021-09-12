@@ -7,7 +7,7 @@
   background-color: #248229;
 }
 .btn-detail:hover {
-  color: #fff;
+  color: #fff !important;
   opacity: 0.9;
 }
 
