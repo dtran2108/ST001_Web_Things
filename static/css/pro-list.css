@@ -1,0 +1,96 @@
+:root {
+    --color-green: #248229;
+  }
+  
+  .btn-detail {
+    color: #fff;
+    background-color: #248229;
+  }
+  .btn-detail:hover {
+    color: #fff;
+    opacity: 0.9;
+  }
+
+  /* ---------------------------------------- */
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  img {
+    vertical-align: middle;
+    border: 0;
+  }
+  
+  .img-text h1 {
+    margin: 0;
+    font-size: 100px;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .img-text h1 {
+      font-size: 65px;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1599px) {
+    .img-text h1 {
+      margin: 0;
+      font-size: 80px;
+      text-transform: uppercase;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .img-text h1 {
+      font-size: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .img-text h1 {
+      font-size: 20px;
+    }
+  }
+
+  .product-title {
+    font-family: var(--font-raleway);
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: var(--primary-color);
+    font-size: 18px;
+  }
+  
+  .hover-img {
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+  }
+  
+  .hover-img:hover {
+    opacity: .4;
+  }
+  
+  .welcome-text {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .page-item{
+   margin: 0 7px 0 7px;
+  }
+
+  .page-link{
+    color: black;
+  }
+
+  
+  
+  
