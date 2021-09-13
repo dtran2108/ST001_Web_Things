@@ -30,7 +30,6 @@
     font-weight: bolder;
     letter-spacing: 0.02em;
     padding-left: 16px;
-    height: 40px;
     background: #F3F3F3;
   }
   .sub-total{
@@ -41,18 +40,17 @@
     font-weight: bolder;
     letter-spacing: 0.02em;
     padding-left: 16px;
-    height: 40px;
     background: #F3F3F3;
   }
   .pace-top{
-    padding-top: 80px;
+    padding-top: 75px;
   }
   .pace-bot{
     padding-bottom: 56px;
   }
   .product{
     padding-top: 10px;
-    width: 100%;
+    width: 780px;
     height: 250px;
   }
   .small-pic{
