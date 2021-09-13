@@ -12,6 +12,8 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <!-- tabs -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -173,51 +175,71 @@
               </div>
             </div>
             <div class="col-12 col-md-6 wrap-img">
-              <img
-                src="./static/img/img-product.jpg"
-                alt="image"
-                class="img-product"
-              />
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="desc-product">
-          <h5 class="desc-title">DESCRIPTION</h5>
-          <div class="more-desc">
-            <h6 class="desc-head">Why choose ThemeTidy</h6>
-            <p class="desc-text">
-              We just don't build your website we build your business. We
-              Building Your Business with Strong Branding. Our helpful support
-              team is always on standby to help you with any questions or
-              issues. We have a great team to build your business.
-            </p>
+          <ul class="nav nav-tabs">
+            <li class="active"><a class="desc-title" data-toggle="tab" href="#description">DESCRIPTION</a></li>
+          </ul>
+          <div class="tab-content more-desc">
+            <div id="description" class="tab-pane fade in active">
+              <h6 class="desc-head">Why choose ThemeTidy</h6>
+              <p class="desc-text">
+                We just don't build your website we build your business. We
+                Building Your Business with Strong Branding. Our helpful support
+                team is always on standby to help you with any questions or
+                issues. We have a great team to build your business.
+              </p>
 
-            <h6 class="desc-head">Latest & most popular Free Shopify Themes</h6>
-            <p class="desc-text">
-              The best reviewed and most popular Free Shopify Themes ever. Our
-              best selling Free Shopify Themes. Ready To Take Your Free Shopify
-              Themes Next Level? Give Your Site A Beautiful Template Design To
-              Gather More Visitors. Check ThemeTidy awesome Free Shopify Themes
-              Collections.
-            </p>
+              <h6 class="desc-head">Latest & most popular Free Shopify Themes</h6>
+              <p class="desc-text">
+                The best reviewed and most popular Free Shopify Themes ever. Our
+                best selling Free Shopify Themes. Ready To Take Your Free Shopify
+                Themes Next Level? Give Your Site A Beautiful Template Design To
+                Gather More Visitors. Check ThemeTidy awesome Free Shopify Themes
+                Collections.
+              </p>
 
-            <h6 class="desc-head">Paira Shopify theme Framework</h6>
-            <p class="desc-text">
-              Paira Is A Modern, User-Friendly, Highly Customizable And Easy To
-              Integrate Solution To Build Your Next Shopify Website Based On
-              Your Idea. Paira Is A Highly Functional And Advance Theme Option
-              Free Paira Shopify Framework. Why Paira Is The Best & Most Popular
-              Free Paira Shopify Framework Because Free Paira Shopify Framework
-              Have Most Advance Feature List, Coding Simplicity, Unique Option,
-              Easy To Integrate Any Design, Simple And Advance Framework
-              Architecture Design. After Lot Of Research, ThemeTidy Team Finally
-              Release Free Paira Shopify Framework.
-            </p>
+              <h6 class="desc-head">Paira Shopify theme Framework</h6>
+              <p class="desc-text">
+                Paira Is A Modern, User-Friendly, Highly Customizable And Easy To
+                Integrate Solution To Build Your Next Shopify Website Based On
+                Your Idea. Paira Is A Highly Functional And Advance Theme Option
+                Free Paira Shopify Framework. Why Paira Is The Best & Most Popular
+                Free Paira Shopify Framework Because Free Paira Shopify Framework
+                Have Most Advance Feature List, Coding Simplicity, Unique Option,
+                Easy To Integrate Any Design, Simple And Advance Framework
+                Architecture Design. After Lot Of Research, ThemeTidy Team Finally
+                Release Free Paira Shopify Framework.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
+                 
       <footer>
         <!-- Necessary infomation -->
         <div class="necess-infos">
@@ -264,6 +286,10 @@
     <!-- End your project here-->
 
     <script type="text/javascript" src="./static/js/pro-detail.js"></script>
+    <!-- TABS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- End tabs -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
