@@ -1,0 +1,122 @@
+/* BỎ CÁI NÀY */
+
+
+/* * {
+    margin: 0px;
+    padding: 0px !important;
+} */
+
+
+/* .page__1 {
+    position: relative !important;
+    width: 1440px !important;
+    height: 2412px !important;
+    background: #FFFFFF;
+} */
+
+.a {
+    margin-bottom: 60px;
+}
+
+.gia {
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.search {
+    /* SEARCH */
+    /* position: absolute; */
+    /* width: 900px;
+    height: 33px; */
+    /* left: 270px;
+    top: 244px; */
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: var(--font-raleway);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    /* identical to box height, or 110% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.img__tui {
+    /* image 4 */
+    /* position: absolute; */
+    width: 359.01px;
+    height: 360px;
+    /* left: 0px;
+    top: 0px; */
+    background: url(image.png);
+}
+
+.add__cart {
+    /* position: absolute; */
+    width: 184px;
+    height: 46px;
+    /* left: 390px;
+    top: 242px; */
+    background: var(--primary-color);
+}
+
+.vanb {
+    /* Why choose ThemeTidy We just don't build your website we build your business. We Building Your Business with Strong Branding. Our helpful support team is always on standby to help you with any questions or issues. We have a great team to build your business. Latest &amp; most popular Free Shopify Themes The best reviewed and most popular Free Shopify Themes ever. Our best selling Free Shopify Themes. Ready To Take Your Free Shopify Themes Next Level? Give Your... */
+    /* position: absolute; */
+    /* width: 510px; */
+    height: 140px;
+    /* left: 390px;
+    top: 46px; */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.price {
+    /* $120.00 */
+    /* position: absolute; */
+    width: 510px;
+    height: 20px;
+    /* left: 390px;
+    top: 204px; */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.product {
+    /* Product name */
+    /* position: absolute; */
+    /* width: 126px;
+    height: 29px; */
+    /* left: 390px;
+    top: 9px; */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height, or 161% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}

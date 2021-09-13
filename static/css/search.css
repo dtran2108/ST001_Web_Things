@@ -1,0 +1,78 @@
+/* * {
+    margin: 0px;
+    padding: 0px !important;
+} */
+
+.search__page {
+    /* SEARCH */
+    position: absolute;
+    width: 900px;
+    height: 33px;
+    left: 270px;
+    top: 150px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    /* identical to box height, or 110% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.search__text {
+    /* Rectangle 3 */
+    position: absolute;
+    width: 450px;
+    height: 46px;
+    left: 419px;
+    top: 360px;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+}
+
+.btn__search {
+    /* Rectangle 4 */
+    position: absolute;
+    width: 124px;
+    height: 46px;
+    left: 869px;
+    top: 360px;
+    background: #248129;
+    border-radius: 0 !important;
+}
+
+.container-fluid {
+    position: relative !important;
+    width: 1440px !important;
+    height: 856px !important;
+    /* background: #FFFFFF; */
+    /* color: white; */
+}
+
+.icon__search {
+    font-size: smaller;
+}
+
+.question {
+    /* Whatever you want! Search here... */
+    position: absolute;
+    width: 900px;
+    height: 26px;
+    left: 270px;
+    top: 302px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
