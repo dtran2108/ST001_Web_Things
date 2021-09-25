@@ -330,10 +330,22 @@ footer {
   background: none;
 }
 
+.margin-60 {
+  margin: 60px 0px;
+}
+
 /* override Bootstrap CSS */
 .input-group>.form-control,
 .input-group>.input-group-text,
 .form-select {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+.btn {
   border-radius: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
