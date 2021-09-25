@@ -334,6 +334,38 @@ footer {
   margin: 60px 0px;
 }
 
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.hover-img {
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+
+.hover-img:hover {
+  opacity: .9;
+}
+
+.img-hover-zoom img {
+  transition: transform .3s ease;
+  -webkit-transition: transform .3s ease;
+  -moz-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  -o-transition: transform .3s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
 /* override Bootstrap CSS */
 .input-group>.form-control,
 .input-group>.input-group-text,
