@@ -22,15 +22,19 @@ body {
   letter-spacing: 1px;
   line-height: 29px;
 }
+
 .margin-top-20 {
   margin-top: 20px;
 }
+
 .margin-bottom-10 {
   margin-top: 10px;
 }
+
 .container {
   padding: 10px 30px 24px;
 }
+
 .header {
   font-family: var(--font-lato);
   font-size: var(--size-14);
@@ -39,22 +43,27 @@ body {
   border-bottom: 1px solid #cbcbcb;
   position: relative;
 }
+
 .first-head {
   display: flex;
   justify-content: space-between;
   height: 30px;
 }
+
 .use-account {
   position: relative;
 }
+
 .link-account {
   text-decoration: none;
   color: #000;
   padding: 0 15px;
 }
+
 .link-account:last-child {
   padding-right: 0;
 }
+
 .separate::before {
   content: "";
   height: 24px;
@@ -63,15 +72,18 @@ body {
   top: 0;
   left: 65px;
 }
+
 .logo {
   display: flex;
   justify-content: center;
 }
+
 .search-form {
   position: absolute;
   right: 0;
   bottom: 35px;
 }
+
 .search-input {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -80,11 +92,13 @@ body {
   outline: none;
   font-size: var(--size-14);
 }
+
 .search-link {
   position: absolute;
   top: 6px;
   right: 5px;
 }
+
 .search-icon {
   color: #000;
   text-decoration: none;
@@ -99,27 +113,32 @@ body {
   border-bottom: 1px solid #cbcbcb;
   height: 60px;
 }
+
 .nav-list li {
   list-style: none;
   display: inline-block;
   line-height: 60px;
   padding: 0 34px;
 }
+
 .nav-list li a {
   text-decoration: none;
   color: #000;
   font-size: var(--size-12);
   font-weight: var(--weight-700);
 }
+
 .nav-list li .active,
 .collapse-nav li .active {
   color: var(--primary-color);
 }
+
 .shopping-cart {
   position: absolute;
   right: 0;
   top: 15px;
 }
+
 @media only screen and (max-width: 767px) {
   .shopping-cart {
     position: absolute;
@@ -128,9 +147,11 @@ body {
     left: 0;
   }
 }
+
 .bags-shop img {
   width: 21px;
 }
+
 .quantity-goods {
   display: flex;
   margin: 0;
@@ -143,8 +164,16 @@ body {
   font-size: var(--size-12);
 }
 
+.raleway {
+  font-family: var(--font-raleway);
+}
+
 .primary-text {
   color: var(--primary-color);
+}
+
+.primary-bg {
+  background-color: var(--primary-color);
 }
 
 .fw-400 {
@@ -157,6 +186,10 @@ body {
 
 .fw-700 {
   font-weight: 700 !important;
+}
+
+.fs-24 {
+  font-size: 24px;
 }
 
 li {
@@ -229,15 +262,19 @@ a:hover {
   padding: 50px 0 34px 0;
   font-family: var(--font-lato);
   font-size: var(--size-14);
+  border-top: 1px solid #cbcbcb;
   border-bottom: 1px solid #cbcbcb;
 }
+
 .expain {
   line-height: 2;
   word-spacing: 1px;
 }
+
 .necess-links {
   width: 100%;
 }
+
 .necess-links a {
   display: block;
   text-decoration: none;
@@ -245,6 +282,7 @@ a:hover {
   margin-bottom: 10px;
   word-spacing: 1px;
 }
+
 .necess-links a:last-child {
   margin-bottom: 0;
 }
@@ -281,4 +319,24 @@ footer {
 
 .seperate-b {
   border-bottom: 1px solid var(--seperate-color);
+}
+
+.right-divider {
+  border-right: 1px solid #cbcbcb;
+}
+
+.no-style-btn {
+  border: none;
+  background: none;
+}
+
+/* override Bootstrap CSS */
+.input-group>.form-control,
+.input-group>.input-group-text,
+.form-select {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
