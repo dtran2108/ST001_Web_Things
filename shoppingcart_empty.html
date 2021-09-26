@@ -1,145 +1,143 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- favicon -->
-    <link rel="icon" href="./static/img/favicon.png" type="image/x-icon" />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./static/css/index.css" />
-    <link rel="stylesheet" href="./static/css/shopping_cart.css" />
-    <title>Shopping Cart</title>
-  </head>
-  <body>
-    <!-- Start your project here-->
-    <div class="container-lg">
-      <!-- Header -->
-      <header class="header pt-2">
-        <div class="first-head">
-          <div class="freeship">
-            <p class="fw-500">Free Shipping for all</p>
-          </div>
-          <div class="use-account">
-            <a href="#" class="link-account separate fw-500">Login</a>
-            <a href="#" class="link-account fw-500">Register</a>
-          </div>
-        </div>
-        <div class="logo mt-4 mt-md-0">
-          <img src="./static/img/Logo.png" alt="THINGS" />
-        </div>
-        <div class="search-form d-none d-md-block">
-          <input type="text" placeholder=" Search" class="search-input" />
-          <a href="search.html" class="search-link"
-            ><i class="fas fa-search search-icon"></i
-          ></a>
-        </div>
-      </header>
 
-      <!-- Navbar -->
-      <div class="nav-bar justify-content-md-center justify-content-end">
-        <ul class="nav-list d-none d-md-block">
-          <li><a href="#" class="fw-500 active">HOME</a></li>
-          <li><a href="product-detail.html" class="fw-500">SHOP</a></li>
-          <li><a href="#" class="fw-500">BLOG</a></li>
-          <li><a href="#" class="fw-500">ABOUT US</a></li>
-          <li><a href="#" class="fw-500">CONTACT US</a></li>
-        </ul>
-        <div class="shopping-cart d-flex align-items-center">
-          <a href="shoppingcart_available.html" class="bags-shop"
-            ><i class="fas fa-shopping-bag"></i></a>
-          <p class="quantity-goods">2</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- favicon -->
+  <link rel="icon" href="./static/img/favicon.png" type="image/x-icon" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./static/css/index.css" />
+  <link rel="stylesheet" href="./static/css/shopping_cart.css" />
+  <title>Shopping Cart</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container-lg">
+    <header class="header">
+      <div class="first-head">
+        <div class="d-flex align-items-center">
+          <div class="logo mt-4 mt-md-0">
+            <img class="logo-img" src="./static/img/Logo.png" alt="LOGO" />
+          </div>
+          <!-- Navbar -->
+          <div class="nav-bar justify-content-md-center justify-content-end">
+            <ul class="nav-list d-none d-lg-block">
+              <li><a href="home.html" class="fw-500 active">HOME</a></li>
+              <li><a href="product-list.html" class="fw-500">PRODUCTS</a></li>
+              <li><a href="#" class="fw-500">ACCOUNT</a></li>
+            </ul>
+          </div>
         </div>
-        <button
-          class="btn pull-right d-block d-md-none nav-collapse-btn m-1"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseNav"
-          aria-expanded="false"
-          aria-controls="collapseNav"
-        >
+        <div class="d-none d-lg-flex align-items-center">
+          <div class="d-none d-lg-block pe-3">
+            <input type="text" placeholder=" Search..." class="search-input" />
+            <a href="search.html" class="search-link"><i class="fas fa-search search-icon"></i></a>
+          </div>
+          <span class="d-flex align-items-center pe-3">
+            <a href="shoppingcart_available.html" class="bags-shop"><i class="fas fa-shopping-bag"></i></a>
+            <span class="quantity-goods">2</span>
+          </span>
+          <a href="#" class="link-account fw-500 pe-3">Login</a>
+          <span class="primary-btn">
+            <a href="#" class="link-account fw-500">
+              Register
+            </a>
+          </span>
+        </div>
+        <button class="btn pull-right d-block d-lg-none nav-collapse-btn m-1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseNav" aria-expanded="false" aria-controls="collapseNav">
           <span class="icon-bar"></span>
           <span class="icon-bar my-1"></span>
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="collapse" id="collapseNav">
-        <ul class="ps-0 pt-3 mb-0 collapse-nav">
-          <li><a href="home.html" class="fw-400 active">HOME</a></li>
-          <li><a href="product-detail.html" class="fw-400">SHOP</a></li>
-          <li><a href="#" class="fw-400">BLOG</a></li>
-          <li><a href="#" class="fw-400">ABOUT US</a></li>
-          <li><a href="#" class="fw-400">CONTACT US</a></li>
-        </ul>
-      </div>
+    </header>
+    <div class="collapse" id="collapseNav">
+      <ul class="ps-0 pt-3 mb-0 collapse-nav">
+        <li><a href="home.html" class="fw-400 active">HOME</a></li>
+        <li><a href="product-detail.html" class="fw-400">PRODUCTS</a></li>
+        <li><a href="#" class="fw-400">ACCOUNT</a></li>
+        <li><a href="#" class="fw-400">LOGIN</a></li>
+        <li><a href="#" class="fw-400">REGISTER</a></li>
+        <li>
+          <div class="d-flex align-items-center">
+            <span class="d-flex align-items-center pe-3">
+              <a href="shoppingcart_available.html" class="bags-shop"><i class="fas fa-shopping-bag"></i></a>
+              <span class="quantity-goods">2</span>
+            </span>
+            <div class="pe-3">
+              <input type="text" placeholder=" Search..." class="search-input" />
+              <a href="search.html" class="search-link"><i class="fas fa-search search-icon"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
+  </div>
 
-    <!--Empty shopping cart-->
-    <section class="container-lg seperate-b">
-      <center class="top"><h1 class="section-title mb-0">SHOPPING CART</h1></center>
-      <p class="text-center empty-text">It Appears That Your Cart Is Currently Empty!</p>
-      <p class="text-center continue-text">Please Continue Shopping ...</p>
-    </section>
+  <!--Empty shopping cart-->
+  <section class="container-lg seperate-b">
+    <center class="top">
+      <h1 class="section-title mb-0">SHOPPING CART</h1>
+    </center>
+    <p class="text-center empty-text">It Appears That Your Cart Is Currently Empty!</p>
+    <p class="text-center continue-text">Please Continue Shopping ...</p>
+  </section>
 
-    <!-- Footer -->
-    <footer class="container-lg">
-      <!-- Necessary infomation -->
-      <div class="necess-infos">
-        <div class="row">
-          <div class="col-12 col-md-5 mb-3 mb-md-0">
-            <p class="expain">
-              Paira is a modern, user-friendly, highly customizable and easy
-              to integrate solution to build your next Shopify website based
-              on your idea. Paira is a highly functional and advance theme
-              option shopify framework.
-            </p>
-          </div>
-          <div class="col-12 col-md-1"></div>
-          <div class="col-12 col-md-2">
-            <ul class="necess-links pb-2 pb-md-0 ps-0">
-              <li class="pb-3"><a href="">Terms</a></li>
-              <li class="pb-3"><a href="">Conditions</a></li>
-              <li class="pb-3"><a href="">Shipping</a></li>
-              <li class="pb-3"><a href="">Returns</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-2">
-            <ul class="necess-links pb-2 pb-md-0 ps-0">
-              <li class="pb-3"><a href="search.html">Search</a></li>
-              <li class="pb-3"><a href="">About us</a></li>
-              <li class="pb-3"><a href="">Contact us</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-2">
-            <ul class="necess-links pb-2 pb-md-0 ps-0">
-              <li class="pb-3"><a href="">Our personal info</a></li>
-              <li class="pb-3"><a href="">Our credit slips</a></li>
-              <li class="pb-3"><a href="">Delivery Information</a></li>
-              <li class="pb-3"><a href="">Shipping & Refund</a></li>
-            </ul>
-          </div>
+  <!-- Footer -->
+  <footer class="container-lg">
+    <!-- Necessary infomation -->
+    <div class="necess-infos">
+      <div class="row">
+        <div class="col-12 col-md-5 mb-3 mb-md-0">
+          <p class="expain">
+            Paira is a modern, user-friendly, highly customizable and easy
+            to integrate solution to build your next Shopify website based
+            on your idea. Paira is a highly functional and advance theme
+            option shopify framework.
+          </p>
+        </div>
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-2">
+          <ul class="necess-links pb-2 pb-md-0 ps-0">
+            <li class="pb-3"><a href="">Terms</a></li>
+            <li class="pb-3"><a href="">Conditions</a></li>
+            <li class="pb-3"><a href="">Shipping</a></li>
+            <li class="pb-3"><a href="">Returns</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2">
+          <ul class="necess-links pb-2 pb-md-0 ps-0">
+            <li class="pb-3"><a href="search.html">Search</a></li>
+            <li class="pb-3"><a href="">About us</a></li>
+            <li class="pb-3"><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2">
+          <ul class="necess-links pb-2 pb-md-0 ps-0">
+            <li class="pb-3"><a href="">Our personal info</a></li>
+            <li class="pb-3"><a href="">Our credit slips</a></li>
+            <li class="pb-3"><a href="">Delivery Information</a></li>
+            <li class="pb-3"><a href="">Shipping & Refund</a></li>
+          </ul>
         </div>
       </div>
-      <center class="my-4">&copy; ThemeTidy. All Rights Reserved.</p>
-    </footer> 
-    <!-- End your project here-->
-    
-    <script type="text/javascript" src="./static/js/index.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+    <center class="my-4">&copy; ThemeTidy. All Rights Reserved.</p>
+  </footer>
+  
+
+  <script type="text/javascript" src="./static/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

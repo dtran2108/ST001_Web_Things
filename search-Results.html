@@ -18,55 +18,68 @@
 </head>
 
 <body>
+    <!-- Header -->
     <div class="container-lg">
-        <!-- Header -->
-        <header class="header pt-2">
+        <header class="header">
             <div class="first-head">
-                <div class="freeship">
-                    <p class="fw-500">Free Shipping for all</p>
+                <div class="d-flex align-items-center">
+                    <div class="logo mt-4 mt-md-0">
+                        <img class="logo-img" src="./static/img/Logo.png" alt="LOGO" />
+                    </div>
+                    <!-- Navbar -->
+                    <div class="nav-bar justify-content-md-center justify-content-end">
+                        <ul class="nav-list d-none d-lg-block">
+                            <li><a href="home.html" class="fw-500 active">HOME</a></li>
+                            <li><a href="product-list.html" class="fw-500">PRODUCTS</a></li>
+                            <li><a href="#" class="fw-500">ACCOUNT</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="use-account">
-                    <a href="#" class="link-account separate fw-500">Login</a>
-                    <a href="#" class="link-account fw-500">Register</a>
+                <div class="d-none d-lg-flex align-items-center">
+                    <div class="d-none d-lg-block pe-3">
+                        <input type="text" placeholder=" Search..." class="search-input" />
+                        <a href="search.html" class="search-link"><i class="fas fa-search search-icon"></i></a>
+                    </div>
+                    <span class="d-flex align-items-center pe-3">
+                        <a href="shoppingcart_available.html" class="bags-shop"><i class="fas fa-shopping-bag"></i></a>
+                        <span class="quantity-goods">2</span>
+                    </span>
+                    <a href="#" class="link-account fw-500 pe-3">Login</a>
+                    <span class="primary-btn">
+                        <a href="#" class="link-account fw-500">
+                            Register
+                        </a>
+                    </span>
                 </div>
-            </div>
-            <div class="logo mt-4 mt-md-0">
-                <img src="./static/img/Logo.png" alt="THINGS" />
-            </div>
-            <div class="search-form d-none d-md-block">
-                <input type="text" placeholder=" Search" class="search-input" />
-                <a href="search.html" class="search-link"><i class="fas fa-search search-icon"></i></a>
+                <button class="btn pull-right d-block d-lg-none nav-collapse-btn m-1" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseNav" aria-expanded="false"
+                    aria-controls="collapseNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar my-1"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
         </header>
-
-        <!-- Navbar -->
-        <div class="nav-bar justify-content-md-center justify-content-end">
-            <ul class="nav-list d-none d-md-block">
-                <li><a href="home.html" class="fw-500 active">HOME</a></li>
-                <li><a href="product-list.html" class="fw-500">SHOP</a></li>
-                <li><a href="#" class="fw-500">BLOG</a></li>
-                <li><a href="#" class="fw-500">ABOUT US</a></li>
-                <li><a href="#" class="fw-500">CONTACT US</a></li>
-            </ul>
-            <div class="shopping-cart d-flex align-items-center">
-                <a href="shoppingcart_available.html" class="bags-shop"><i class="fas fa-shopping-bag"></i></a>
-                <p class="quantity-goods">2</p>
-            </div>
-            <button class="btn pull-right d-block d-md-none nav-collapse-btn m-1" type="button"
-                data-bs-toggle="collapse" data-bs-target="#collapseNav" aria-expanded="false"
-                aria-controls="collapseNav">
-                <span class="icon-bar"></span>
-                <span class="icon-bar my-1"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
         <div class="collapse" id="collapseNav">
             <ul class="ps-0 pt-3 mb-0 collapse-nav">
                 <li><a href="home.html" class="fw-400 active">HOME</a></li>
-                <li><a href="product-detail.html" class="fw-400">SHOP</a></li>
-                <li><a href="#" class="fw-400">BLOG</a></li>
-                <li><a href="#" class="fw-400">ABOUT US</a></li>
-                <li><a href="#" class="fw-400">CONTACT US</a></li>
+                <li><a href="product-detail.html" class="fw-400">PRODUCTS</a></li>
+                <li><a href="#" class="fw-400">ACCOUNT</a></li>
+                <li><a href="#" class="fw-400">LOGIN</a></li>
+                <li><a href="#" class="fw-400">REGISTER</a></li>
+                <li>
+                    <div class="d-flex align-items-center">
+                        <span class="d-flex align-items-center pe-3">
+                            <a href="shoppingcart_available.html" class="bags-shop"><i
+                                    class="fas fa-shopping-bag"></i></a>
+                            <span class="quantity-goods">2</span>
+                        </span>
+                        <div class="pe-3">
+                            <input type="text" placeholder=" Search..." class="search-input" />
+                            <a href="search.html" class="search-link"><i class="fas fa-search search-icon"></i></a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -286,7 +299,7 @@
 
         <center class="my-4">&copy; ThemeTidy. All Rights Reserved.</p>
     </footer>
-    <!-- End your project here-->
+    
 
     <script type="text/javascript" src="./static/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
