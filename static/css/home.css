@@ -108,12 +108,29 @@ img {
   text-transform: uppercase;
 }
 
+.banner-description {
+  width: 50%;
+  text-transform: none;
+  font-family: 'Montserrat Regular';
+}
+
 @media (max-width: 1440px) {
   .img-text h1 {
     font-size: 100px;
   }
+
   .img-text {
     top: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-text {
+    top: 15%;
+  }
+
+  .banner-description {
+    width: 75%;
   }
 }
 
@@ -121,8 +138,13 @@ img {
   .img-text h1 {
     font-size: 72px;
   }
+
   .img-text {
-    top: 25%;
+    top: 20%;
+  }
+
+  .banner-description {
+    width: 100%;
   }
 }
 
@@ -130,17 +152,11 @@ img {
   .img-text h1 {
     font-size: 64px;
   }
-  .img-text {
-    top: 25%;
-  }
 }
 
 @media (max-width: 320px) {
   .img-text h1 {
     font-size: 56px;
-  }
-  .img-text {
-    top: 25%;
   }
 }
 
