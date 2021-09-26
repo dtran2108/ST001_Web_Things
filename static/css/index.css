@@ -24,6 +24,11 @@
   --seperate-color: #cbcbcb;
 }
 
+::selection {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
 /* -------------------------------- */
 body {
   box-sizing: border-box;
