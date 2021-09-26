@@ -18,6 +18,9 @@
 </head>
 
 <body>
+  <button onclick="backTop()" id="backTopBtn" title="Go to top">
+    <img src="./static/svg/icon-arrow-up.svg" width="24px" height="24px" alt="back top" />
+  </button>
   <!-- Header -->
   <div class="container-lg">
     <header class="header">
@@ -161,46 +164,44 @@
   </section>
 
   <!-- Footer -->
-  <footer class="container-lg">
+  <footer class="mx-5">
     <!-- Necessary infomation -->
     <div class="necess-infos">
       <div class="row">
-        <div class="col-md-5 mb-3 mb-md-0">
+        <div class="col-12 col-md-5 mb-3 mb-md-0">
           <img class="logo-img" src="./static/img/Logo.png" alt="LOGO" />
           <p class="expain">
             Thriftink is a thrift shop where you can buy all Blackpink goods, or trade you bias cards. We provide you a
             friendly website with all good condition products.
           </p>
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-2 fs-18"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="me-2 fs-18"><i class="fab fa-facebook-square"></i></i></a>
+            <a href="#" class="me-2 fs-18"><i class="fab fa-telegram"></i></i></a>
+          </div>
         </div>
-        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-2"></div>
         <div class="col-12 col-md-2">
           <ul class="necess-links pb-2 pb-md-0 ps-0">
-            <li class="pb-3"><a href="">Terms</a></li>
-            <li class="pb-3"><a href="">Conditions</a></li>
-            <li class="pb-3"><a href="">Shipping</a></li>
-            <li class="pb-3"><a href="">Returns</a></li>
+            <li class="pb-3"><a href="#!">Terms</a></li>
+            <li class="pb-3"><a href="#!">Conditions</a></li>
+            <li class="pb-3"><a href="#!">Shipping</a></li>
+            <li class="pb-3"><a href="#!">Returns</a></li>
           </ul>
         </div>
         <div class="col-12 col-md-2">
           <ul class="necess-links pb-2 pb-md-0 ps-0">
             <li class="pb-3"><a href="search.html">Search</a></li>
-            <li class="pb-3"><a href="">About us</a></li>
-            <li class="pb-3"><a href="">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-2">
-          <ul class="necess-links pb-2 pb-md-0 ps-0">
-            <li class="pb-3"><a href="">Our personal info</a></li>
-            <li class="pb-3"><a href="">Our credit slips</a></li>
-            <li class="pb-3"><a href="">Delivery Information</a></li>
-            <li class="pb-3"><a href="">Shipping & Refund</a></li>
+            <li class="pb-3"><a href="#!">Our credit slips</a></li>
+            <li class="pb-3"><a href="#!">Delivery Information</a></li>
+            <li class="pb-3"><a href="#!">Shipping & Refund</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <center class="my-4">&copy; Thriftink. All Rights Reserved.</p>
   </footer>
+  <center class="py-4 primary-bg text-white">&copy; Thriftink. All Rights Reserved.</center>
 
   <script type="text/javascript" src="./static/js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

@@ -162,6 +162,7 @@ body {
 
 #backTopBtn {
   opacity: 0;
+  z-index: 1000;
   transition: .3s all ease;
   position: fixed;
   bottom: 40px;
