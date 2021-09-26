@@ -53,6 +53,11 @@ body {
   padding: 60px 0px 35px 0px;
 }
 
+.icon-btn {
+  border: none;
+  background: none;
+}
+
 .first-head {
   display: flex;
   justify-content: space-between;
@@ -86,6 +91,35 @@ body {
 }
 
 .primary-btn a {
+  color: #fff;
+}
+
+.secondary-btn {
+  background: var(--secondary-color) !important;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 99px;
+  transition: 0.3s all ease;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -o-border-radius: 99px;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color) !important;
+  border-color: #fff;
+}
+
+.secondary-btn:hover a {
+  color: #fff;
+}
+
+.secondary-btn a {
   color: #fff;
 }
 
@@ -124,6 +158,35 @@ body {
 .search-icon {
   color: #000;
   text-decoration: none;
+}
+
+#backTopBtn {
+  opacity: 0;
+  transition: .3s all ease;
+  position: fixed;
+  bottom: 40px;
+  right: 48px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 999px;
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  -ms-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
+}
+
+#backTopBtn:hover {
+  background-color: #555;
 }
 
 /* -------------------------------------- */
