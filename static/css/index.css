@@ -38,6 +38,14 @@ body {
   line-height: 29px;
 }
 
+.fw-medium {
+  font-family: 'Montserrat Medium';
+}
+
+.fw-bold {
+  font-family: 'Montserrat Bold';
+}
+
 .margin-top-20 {
   margin-top: 20px;
 }

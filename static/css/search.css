@@ -10,8 +10,8 @@
 }
 
 .search-option-wrapper {
-  width: 600px;
-  max-width: 600px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .option-seperator {
@@ -29,4 +29,10 @@
     width: 90% !important;
     max-width: 90% !important;
   }
+}
+
+.search-title {
+  font-size: 64px;
+  font-family: 'Montserrat Medium';
+  margin-bottom: 60px;
 }
