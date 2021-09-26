@@ -153,8 +153,3 @@ img {
   color: var(--primary-color);
   font-size: 18px;
 }
-
-.welcome-text {
-  width: 75%;
-  margin: 0 auto;
-}
