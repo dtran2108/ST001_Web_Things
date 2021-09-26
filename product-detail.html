@@ -19,7 +19,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet" />
-  <title>Product Detail</title>
+  <title>LALISA GOLD BOX SET | Thriftink</title>
 </head>
 
 <body>
@@ -95,83 +95,70 @@
     <div class="product-detail">
       <div class="product-info">
         <div class="product-name">
-          <p style="margin: 0" class="fw-700">Free demo product name 10</p>
+          <h1 class="section-title">LALISA GOLD BOX SET</h1>
         </div>
         <div class="row info-detail">
           <div class="col-12 col-md-6 wrap-img">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active product-carousel-item-container" data-scale="2.5"
+                  data-bs-interval="100000">
+                  <img src="./static/img/LALISA_GOLDBOX2.jpeg" class="d-block w-100 product-carousel-item"
+                    alt="LALISA_BoxGold">
                 </div>
-                <div class="carousel-item">
-                  <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item product-carousel-item-container" data-scale="2.5" data-bs-interval="100000">
+                  <img src="./static/img/LALISA_BoxGold.png" class="d-block w-100 product-carousel-item"
+                    alt="LALISA_GOLDBOX2">
                 </div>
-                <div class="carousel-item">
-                  <img src="./static/img/img-product.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item product-carousel-item-container" data-scale="2.5" data-bs-interval="100000">
+                  <img src="./static/img/LALISA_goldenTicket.webp" class="d-block w-100 product-carousel-item"
+                    alt="LALISA_goldenTicket">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>
-          <div class="col col-md-6">
+          <div class="col-12 col-md-1"></div>
+          <div class="col-12 col-md-5">
             <div class="product-type">
-              <p class="product-price fw-700">$70.00</p>
-              <div class="character-pro">
-                <span class="character-name">Brand:</span>
-                Serenity
-              </div>
-              <div class="character-pro">
-                <span class="character-name">Type:</span>
-                Clothes
-              </div>
-              <div class="character-pro">
-                <p class="character-name">SIZE</p>
-                <select class="form-select select-size" aria-label="Default select example">
-                  <option selected>Choose size</option>
-                  <option value="1">S</option>
-                  <option value="2">M</option>
-                  <option value="3">L</option>
-                </select>
-              </div>
-              <div class="character-pro">
-                <p class="character-name">COLOR</p>
-                <select class="form-select select-color" aria-label="Default select example">
-                  <option selected>Choose color</option>
-                  <option value="1">Red</option>
-                  <option value="2">Pink</option>
-                  <option value="3">White</option>
-                </select>
-              </div>
-              <div class="character-pro">
-                <p class="character-name">MATERIAL</p>
-                <select class="form-select select-color" aria-label="Default select example">
-                  <option selected>Choose material</option>
-                  <option value="1">Silk</option>
-                  <option value="2">Woven</option>
-                </select>
-              </div>
-              <div class="character-pro">
-                <p class="character-name">QUANTITY</p>
-                <div class="select-quantity">
-                  <i class="fas fa-minus minus btn-detail"></i>
-                  <input class="input-quantity" id="input" type="text" value="1" />
-                  <i class="fas fa-plus plus btn-detail"></i>
+              <p class="my-5">
+                <span class="product-price fw-700">$70.00</span>
+              </p>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="character-pro">
+                    <p class="character-name">QUANTITY</p>
+                    <div class="select-quantity">
+                      <i class="fas fa-minus minus btn-detail"></i>
+                      <input class="input-quantity" id="input" type="text" value="1" />
+                      <i class="fas fa-plus plus btn-detail"></i>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <a href="#" class="add-cart-btn btn-detail">
-                <i class="fas fa-shopping-cart"></i>
-                Add to cart
-              </a>
+              <div class="mt-5">
+                <a href="#" class="primary-btn add-cart-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                  Add to cart
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -179,46 +166,31 @@
     </div>
 
     <div class="container-lg margin-60">
-      <div class="desc-product">
-        <ul class="nav nav-tabs">
-          <li class="active"><a class="desc-title" data-toggle="tab" href="#description">DESCRIPTION</a></li>
-        </ul>
-        <div class="tab-content more-desc">
-          <div id="description" class="tab-pane fade in active">
-            <h6 class="desc-head">Why choose ThemeTidy</h6>
-            <p class="desc-text">
-              We just don't build your website we build your business. We
-              Building Your Business with Strong Branding. Our helpful support
-              team is always on standby to help you with any questions or
-              issues. We have a great team to build your business.
-            </p>
-
-            <h6 class="desc-head">Latest & most popular Free Shopify Themes</h6>
-            <p class="desc-text">
-              The best reviewed and most popular Free Shopify Themes ever. Our
-              best selling Free Shopify Themes. Ready To Take Your Free Shopify
-              Themes Next Level? Give Your Site A Beautiful Template Design To
-              Gather More Visitors. Check ThemeTidy awesome Free Shopify Themes
-              Collections.
-            </p>
-
-            <h6 class="desc-head">Paira Shopify theme Framework</h6>
-            <p class="desc-text">
-              Paira Is A Modern, User-Friendly, Highly Customizable And Easy To
-              Integrate Solution To Build Your Next Shopify Website Based On
-              Your Idea. Paira Is A Highly Functional And Advance Theme Option
-              Free Paira Shopify Framework. Why Paira Is The Best & Most Popular
-              Free Paira Shopify Framework Because Free Paira Shopify Framework
-              Have Most Advance Feature List, Coding Simplicity, Unique Option,
-              Easy To Integrate Any Design, Simple And Advance Framework
-              Architecture Design. After Lot Of Research, ThemeTidy Team Finally
-              Release Free Paira Shopify Framework.
-            </p>
-          </div>
-        </div>
+      <h1 class="section-title">DESCRIPTION</h1>
+      <div class="mt-5">
+        INCLUDES:
+        <br />- PACKAGE BOX
+        <br />- PHOTOBOOK (88P)
+        <br />- CD
+        <br />- RANDOM PHOTOCARD (1 OF 4)
+        <br />- RANDOM POLAROID (1 OF 4)
+        <br />- RANDOM RARE GOLD PHOTOCARD (1 OF 4 / FIRST PRESS ONLY)
+        <br />- DOUBLE-SIDED POSTER
+        <br />- PHOTOCARD
+        <br />- 50 RANDOM BOXES CONTAIN A RARE LARGE POSTCARD
+        <br />
+        <br />TRACKLIST:
+        <br />1. LALISA
+        <br />2. MONEY
+        <br />3. LALISA (INSTRUMENTAL)
+        <br />4. MONEY (INSTRUMENTAL)
+        <br />
+        <br />*LIMITED TO 4 PER ORDER
       </div>
     </div>
   </div>
+
+  <hr />
 
   <!-- Footer -->
   <footer class="mx-5">
@@ -260,6 +232,8 @@
   </footer>
   <center class="py-4 primary-bg text-white">&copy; Thriftink. All Rights Reserved.</center>
 
+  <!-- jQuery -->
+  <script type="text/javascript" src="./static/js/jquery.min.js"></script>
   <script type="text/javascript" src="./static/js/pro-detail.js"></script>
   <!-- TABS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

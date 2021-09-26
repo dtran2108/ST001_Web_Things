@@ -88,7 +88,7 @@
     width: 100px;
     height: 29px;
     color: #fff;
-    background-color: #248229;
+    background-color: var(--primary-color);
     font-family: var(--font-lato);
   }
   .btn-detail:hover {

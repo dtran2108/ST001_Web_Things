@@ -74,6 +74,7 @@ body {
   background: var(--primary-color) !important;
   padding: 8px 16px;
   border: 1px solid #000;
+  color: #fff;
   border-radius: 99px;
   transition: 0.3s all ease;
   -webkit-border-radius: 99px;
@@ -92,6 +93,10 @@ body {
 }
 
 .primary-btn:hover a {
+  color: #fff;
+}
+
+.primary-btn:hover {
   color: #fff;
 }
 
@@ -298,7 +303,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #000;
   transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
@@ -480,4 +485,40 @@ footer {
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
   -o-border-radius: 0px;
+}
+
+.carousel-indicators {
+  bottom: -48px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border: 1px solid #000;
+  width: 14px;
+  height: 14px;
+  border-radius: 99px;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  -ms-border-radius: 99px;
+  -o-border-radius: 99px;
+}
+
+.carousel-indicators .active {
+  border: 1px solid #fff;
+  background-color: var(--secondary-color);
+}
+
+.carousel-control-prev {
+  left: -81;
+}
+
+.carousel-control-next {
+  right: -81;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../svg/right-chevron.svg');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../svg/left-chevron.svg');
 }
