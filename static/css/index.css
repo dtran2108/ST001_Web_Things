@@ -259,6 +259,10 @@ body {
   background-color: var(--primary-color);
 }
 
+.secondary-bg {
+  background-color: var(--secondary-color);
+}
+
 .fw-400 {
   font-weight: 400 !important;
 }
@@ -273,6 +277,10 @@ body {
 
 .fs-24 {
   font-size: 24px;
+}
+
+.fs-18 {
+  font-size: 18px;
 }
 
 li {
@@ -290,7 +298,7 @@ a {
 }
 
 .nav-list li:hover,
-.nav-list li a:hover {
+li a:hover {
   color: var(--secondary-color) !important;
 }
 
@@ -338,8 +346,6 @@ a:hover {
   padding: 50px 0 34px 0;
   font-family: var(--font-lato);
   font-size: var(--size-14);
-  border-top: 1px solid #cbcbcb;
-  border-bottom: 1px solid #cbcbcb;
 }
 
 .expain {
@@ -384,6 +390,10 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid #000;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .section-gap-t {
