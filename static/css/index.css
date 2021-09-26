@@ -379,10 +379,11 @@ footer {
 }
 
 .section-title {
-  font-family: var(--font-raleway);
   font-size: 36px;
+  font-family: 'Montserrat Medium';
   font-weight: bold;
   text-transform: uppercase;
+  border-bottom: 1px solid #000;
 }
 
 .section-gap-t {
