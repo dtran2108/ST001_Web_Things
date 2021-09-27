@@ -523,6 +523,20 @@ footer {
   right: -81;
 }
 
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .carousel-indicators {
+    bottom: 0;
+  }
+}
+
 .carousel-control-next-icon {
   background-image: url('../svg/right-chevron.svg');
 }

@@ -1,7 +1,6 @@
 .btn-detail {
   color: #fff;
   background-color: var(--primary-color);
-  margin: 0px 16px;
   border-radius: 99px;
   transition: 0.3s all ease;
   -webkit-border-radius: 99px;
@@ -81,12 +80,6 @@
 .select-quantity {
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  transform: translateX(34px);
-  -webkit-transform: translateX(34px);
-  -moz-transform: translateX(34px);
-  -ms-transform: translateX(34px);
-  -o-transform: translateX(34px);
 }
 
 .minus,
