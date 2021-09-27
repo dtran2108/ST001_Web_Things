@@ -89,74 +89,65 @@
   <section class="container-lg">
     <h1 class="section-title my-5">shopping cart</h1>
     <div class="purchase row pace-top pace-bot justify-content-between">
-      <div class="col-md-12 col-lg-7">
-        <div class="product-list row">PRODUCT LIST</div>
-        <div class="product row justify-content-md-center">
-          <div class="small-pic col-12 col-md-4 col-lg-2 text-md-end text-lg-start">
-            <img src="./static/img/image5.png" alt="lightbulb">
+      <div class="col-12 col-lg-8">
+        <h2>PRODUCT LIST</h2>
+        <div class="row mt-4">
+          <div class="col-12 col-lg-4">
+            <div class="img-wrapper">
+              <img width="100%" height="auto" src="./static/img/LALISA_BoxGold.png" alt="LALISA box gold" />
+            </div>
           </div>
-          <div class="info col-12 col-md-8 col-lg-10">
-            <div class="pro-info">
-              <p>Free demo product name 2 - s / green / flax</p>
-            </div>
-            <div class="price">
-              <p>$32.00</p>
-            </div>
-            <div class="quantity">
-              <p>Quantity</p>
-            </div>
-            <div class="btnrow">
-              <input class="box" id="input" type="text" value="1" />
-              <a href="#" class="btn-detail mx-sm-1 mx-md-2 mx-lg-3">
-                <i class="cont fas fa-edit"></i>
-                UPDATE
-              </a>
-              <a href="#" class="btn-detail">
-                X REMOVE
-              </a>
+          <div class="col-12 col-lg-8">
+            <h4 class="me-3 mb-2">LALISA BLACK BOX SET</h4>
+            <p class="fs-24 fw-medium">$30.00</p>
+            <br />
+            <h5 class="mb-4">QUANTITY</h5>
+            <div class="d-flex align-items-center">
+              <button class="no-style-btn quantity-options me-3" title="minus">-</button>
+              <span id="productQuantity1">1</span>
+              <button class="no-style-btn quantity-options mx-3" title="plus">+</button>
+              <button title="delete" class="no-style-btn">
+                <img width="16px" height="16px" alt="delete" src="./static/svg/delete.svg" />
+              </button>
             </div>
           </div>
         </div>
-        <div class="product row">
-          <div class="small-pic col-12 col-md-4 col-lg-2 text-md-end text-lg-start">
-            <img src="./static/img/image5.png" alt="lightbulb">
+        <hr />
+        <div class="row mt-4">
+          <div class="col-12 col-lg-4">
+            <div class="img-wrapper">
+              <img width="100%" height="auto" src="./static/img/LALISA_BoxBlack.png" alt="LALISA box black" />
+            </div>
           </div>
-          <div class="info col-12 col-md-8 col-lg-10">
-            <div class="pro-info ">
-              <p>Free demo product name 2 - s / green / flax</p>
-            </div>
-            <div class="price">
-              <p>$32.00</p>
-            </div>
-            <div class="quantity">
-              <p>Quantity</p>
-            </div>
-            <div class="btnrow">
-              <input class="box" id="input" type="text" value="1" />
-              <a href="#" class="btn-detail mx-sm-1 mx-md-2 mx-lg-3">
-                <i class="cont fas fa-edit"></i>
-                UPDATE
-              </a>
-              <a href="#" class="btn-detail">
-                X REMOVE
-              </a>
+          <div class="col-12 col-lg-8">
+            <h4 class="me-3 mb-2">LALISA BLACK BOX SET</h4>
+            <p class="fs-24 fw-medium">$30.00</p>
+            <br />
+            <h5 class="mb-4">QUANTITY</h5>
+            <div class="d-flex align-items-center">
+              <button class="no-style-btn quantity-options me-3" title="minus">-</button>
+              <span id="productQuantity1">1</span>
+              <button class="no-style-btn quantity-options mx-3" title="plus">+</button>
+              <button title="delete" class="no-style-btn">
+                <img width="16px" height="16px" alt="delete" src="./static/svg/delete.svg" />
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div class=" col-md-12 col-lg-4">
-        <div class="sub-total row">Sub Total</div>
-        <div class="row total-price">
-          <p class="ttp">$70.00</p>
+      <div class="col-12 col-lg-4">
+        <h2 class="mb-3">TOTAL</h2>
+        <div class="d-flex align-items-center justify-content-between">
+          <p class="me-3 mb-2">LALISA GOLD BOX SET</p>
+          <p class="fw-medium">$30.00 x 1</p>
         </div>
-        <div class="row">
-          <li>
-            <textarea class="box2" placeholder="Special instructions... "></textarea>
-          </li>
+        <div class="d-flex align-items-center justify-content-between">
+          <p class="me-3 mb-2">LALISA BLACK BOX SET</p>
+          <p class="fw-medium">$30.00 x 1</p>
         </div>
-        <div class="row justify-content-center">
-          <a href="#" class="checkout_btn">PROCEED TO CHECKOUT</a>
-        </div>
+        <hr />
+        <p class="fs-24 fw-medium text-right">$60.00</p>
+        <button class="primary-btn w-100 mt-3">CHECKOUT</button>
       </div>
     </div>
   </section>
